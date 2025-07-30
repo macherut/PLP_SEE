@@ -6,9 +6,9 @@ operation = str(input("Enter the operation (+,-,*,/)"))
 
 if (operation == "*"):
     print(f"Multiplication {numberOne} * {numberTwo} {numberOne*numberTwo}")
-if (operation == "+"):
+elif (operation == "+"):
     print(f"Addition {numberOne} + {numberTwo}={numberOne+numberTwo}")
-if (operation == "-"):
+elif (operation == "-"):
     print(f"Subtraction {numberOne} - {numberTwo}={numberOne-numberTwo}")
-if (operation == "/"):
+elif (operation == "/"):
     print(f"Quotient {numberOne} / {numberTwo}={numberOne/numberTwo}")
